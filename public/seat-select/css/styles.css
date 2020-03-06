@@ -48,12 +48,14 @@ main {
     font-size: 36px;
     padding-left: 36px;
     width: fit-content;
+    margin-top: 300px;
+    
 }
 
 h1, h2, h3, label, button {
     color: #fff;
     font-family: var(--heading-font);
-    font-size: 32px;
+    font-size: 29px;
     text-align: center;
 }
 p, a, li, blockquote, input {
@@ -260,3 +262,63 @@ input {
 }
 
 .form-container { display: none; }
+
+
+.submitBtn {
+    font-size: 18px;
+    color: #aa001e;
+    border-radius: 10px;
+}
+
+.dropdown {
+    font-size: 18px;
+    margin: 0 10px; 
+    border:none;
+
+    font-family:"Permanent Marker";
+}
+
+.email-input {
+    position: absolute;
+    right: 20px; 
+    
+}
+
+.res-label {
+    font-size: 16px;
+}
+
+.res-input {
+    height: 30px; 
+    font-size: 16px;
+    width: 170px !important;
+}
+
+/* VIEW RES PAGE  */
+
+.reservation-card {
+   
+    border: 3px solid #aa001e;
+    margin: 0 auto;
+    margin-top: 80px; 
+    border-radius: 10px;
+    width: 480px; 
+    padding: 10px 30px 0 30px;
+}
+.reservation-card h1 {
+    font-size: 50px;
+    color: #aa001e;
+    border-bottom: 2px solid #aa001e;
+    padding-bottom: 10px ;
+}
+.card-content {
+    margin: 30px 0;
+}
+.card-content h3 {
+    font-size: 20px; 
+    font-family: "Kosugi";
+    font-weight: 900;
+    color: black;
+    margin:10px 0; 
+}
+

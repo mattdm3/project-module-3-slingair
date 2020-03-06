@@ -1,21 +1,36 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0, minimal-ui" />
-        <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-        <title>Confirmed!</title>
-    </head>
-    <body>
-        <div class='main'>
-            <header class='header'>
-                <h1 class='header-logo'>Air Slingshot</h1>
-            </div>
-            <div class="content">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0, minimal-ui" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <title>Confirmed!</title>
+</head>
+
+<body>
+
+    <header class='header'>
+        <h1 class='header-logo'>Air Slingshot</h1>
+    </header>
+
+
+    <div class='main'>
+        <div class="reservation-card">
+            <h1>Flight #: <span id="res-flight"></span> </h1>
+
+            <div class="card-content ">
+                <h3>Name: <span id="res-name"></span></h3>
+                <h3>Email: <span id="res-email"></span></h3>
+                <h3>Seat:<span id="res-seat"></span></h3>
+                <h3>Confirmation ID: <span id="res-id"></span></h3>
             </div>
+
         </div>
-        <p class='footer-logo'>The only way to fly!</p>
-        <script src="./js/view-reservation.js"></script>
-    </body>
+    </div>
+    <p class='footer-logo'>The only way to fly!</p>
+    <script src="./js/seat-select.js"></script>
+    <script src="./js/view-reservation.js"></script>
+</body>
+
 </html>
